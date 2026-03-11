@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+    font-family: georgia;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header,footer{
+    background-color: tomato;
+    color: mistyrose;
+    padding: 10px;
+}
+
+nav{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#blok1,#blok2,#blok3{
+    background-color: #FFAEA5;
+    height: 170px;
+    font-size: 200%;
+}
+
+#blok1{
+    background-color: mistyrose;
+}
+
+main{
+    background-color: mistyrose;
+    width: 80%;
+    height: 510px;
+    overflow: auto;
+}
+
+#sekcja2,#sekcja3{
+    display: none;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+    border: indigo dashed 1px;
+}
+
+select,button{
+    margin: 20px;
+}
+
+dl{
+    font-style: italic;
+    font-weight: bold;
+}
+
+dt:hover{
+    font-size: 180%;
+}
